@@ -77,25 +77,10 @@ fastboot flash recovery boot_sagit.img
 ```
 
 # Support:
-USB
-UFS
-Display
-Touchscreen
-Bluetooth
+USB, UFS, Display, Touchscreen, Bluetooth
 
 # Not Support:
-UEFI Buttons
-WiFi
-Battery
-Charge
-Virtualization
-GPU
-LTE
-Audio
-Location
-Sensors
-Camera
-NFC
+UEFI Buttons, WiFi, , Battery, Charge, Virtualization, GPU, LTE, Audio, Location, Sensors, Camera, NFC
 
 ## Thanks
 
