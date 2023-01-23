@@ -2,7 +2,7 @@
 
 # EDK2 UEFI Firmware For Snapdragon 835 (MSM8998)
 
-[Chinese version (中文版)](https://github.com/lumingyu0423/edk2-MSM8998/blob/new/README.zh.md)
+[Chinese version (中文版)](https://github.com/ZUXTUO/edk2-sagit-backup/blob/new/README.zh.md)
 
 ## Resources
 
