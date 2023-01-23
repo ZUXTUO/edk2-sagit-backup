@@ -1,3 +1,5 @@
+# Backup only !!!
+
 # EDK2 UEFI Firmware For Snapdragon 835 (MSM8998)
 
 [Chinese version (中文版)](https://github.com/lumingyu0423/edk2-MSM8998/blob/new/README.zh.md)
@@ -27,17 +29,7 @@ Beware of bugs, broken framebuffers and noob mistakes on code!
 
 ## Supported devices
 
-1. OnePlus 5 and 5T (cheeseburger, dumpling)
-2. Xiaomi Mi6 (sagit)
-3. Xiaomi Mi Mix 2 (chiron)
-4. Motorola Moto Z2 Force (nash)
-5. LG V30 (joan)
-
-Supported devices(need test)
-1. Samsung Galaxy S8 [Snapdragon] (dream)
-2. Samsung Galaxy Tab S4 (gts4llte)
-3. Asus ZenFone 4 Pro (zs551kl)
-4. Nokia 8 Sirocco (NB1)
+1. Xiaomi Mi6 (sagit)
 
 ## Dependencies
 
@@ -58,42 +50,34 @@ sudo apt install build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu ab
 1.Clone this project
 
 ```bash
-git clone https://github.com/lumingyu0423/edk2-MSM8998.git --depth=1
-cd edk2-MSM8998
+git clone https://github.com/ZUXTUO/edk2-sagit-backup.git
+cd edk2-sagit-backup
 ```
 
-2.1 Build this project (only on linux)
+2.Build this project (only on linux)
 
 ```bash
-bash build.sh --device DEVICE
+bash build.sh --device sagit
 ```
-
-2.2 For Macos/Windows (you can use docker)
-
-````bash
-docker-compose run edk2 ./build.sh -d DEVICE
-````
 
 3.Boot the image
 
 ```bash
-fastboot boot boot_DEVICE.img
+fastboot boot boot_sagit.img
 ```
-
-(DEVICE is the codename of your phone.)
+or
+```bash
+fastboot flash boot boot_sagit.img
+```
 
 Additionally, you can flash the image to recovery to achieve dual-boot.
 
 ```bash
-fastboot flash recovery boot_DEVICE.img
+fastboot flash recovery boot_sagit.img
 ```
 
-## Credits
+## Thanks
 
-`fxsheep` for his original `edk2-sagit`
+https://github.com/edk2-porting/edk2-msm8998
 
-`strongtz` for maintaining Renegade Project
-
-`BigfootACA` for build script and SimpleInit
-
-
+https://github.com/lumingyu0423/edk2-MSM8998
