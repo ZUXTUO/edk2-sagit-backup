@@ -82,6 +82,27 @@ fastboot flash boot boot_sagit.img
 fastboot flash recovery boot_sagit.img
 ```
 
+# 支持：
+USB
+UFS
+显示
+触摸
+蓝牙
+
+# 不支持：
+UEFI按键
+WiFi
+电池
+充电
+虚拟化
+GPU
+LTE
+音频
+定位
+传感器
+摄像头
+NFC
+
 ## 感谢
 
 https://github.com/edk2-porting/edk2-msm8998

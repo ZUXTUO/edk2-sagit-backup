@@ -76,6 +76,27 @@ Additionally, you can flash the image to recovery to achieve dual-boot.
 fastboot flash recovery boot_sagit.img
 ```
 
+# Support:
+USB
+UFS
+Display
+Touchscreen
+Bluetooth
+
+# Not Support:
+UEFI Buttons
+WiFi
+Battery
+Charge
+Virtualization
+GPU
+LTE
+Audio
+Location
+Sensors
+Camera
+NFC
+
 ## Thanks
 
 https://github.com/edk2-porting/edk2-msm8998
