@@ -1,5 +1,13 @@
 # Backup only !!!
 
+# WARNING
+
+Since Windows 22H2 discontinued support for ARMv8.0 CPU, MSM8998 is also affected, which means after version 22H2 it is possible not to boot up.
+
+DO NOT EVER TRY TO PORT IT TO SONY, SAMSUNG DEVICES
+
+YOUR UFS WILL BE WIPED CLEAN!!!
+
 # EDK2 UEFI Firmware For Snapdragon 835 (MSM8998)
 
 [Chinese version (中文版)](https://github.com/ZUXTUO/edk2-sagit-backup/blob/new/README.zh.md)
