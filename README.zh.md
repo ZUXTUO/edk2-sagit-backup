@@ -8,7 +8,7 @@
 
 你的UFS会被清空!!!
 
-# 骁龙835(MSM8998)的EDK2 UEFI固件
+# 骁龙835(MSM8998)的EDK2 UEFI固件(Xiaomi MI 6)
 
 **在编译该项目前，请确定你有一定的Linux常识，以下步骤已经是最简单的方法，如果你看不懂，那么请使用Releases中的编译成品**
 
@@ -101,3 +101,6 @@ UEFI按键，WiFi，电池，充电，虚拟化，GPU，LTE，音频，定位，
 https://github.com/edk2-porting/edk2-msm8998
 
 https://github.com/lumingyu0423/edk2-MSM8998
+
+
+![image](Other/Phone.jpg)

@@ -8,7 +8,7 @@ DO NOT EVER TRY TO PORT IT TO SONY, SAMSUNG DEVICES
 
 YOUR UFS WILL BE WIPED CLEAN!!!
 
-# EDK2 UEFI Firmware For Snapdragon 835 (MSM8998)
+# EDK2 UEFI Firmware For Snapdragon 835 (MSM8998)(Xiaomi MI 6)
 
 [Chinese version (中文版)](https://github.com/ZUXTUO/edk2-sagit-backup/blob/new/README.zh.md)
 
@@ -95,3 +95,6 @@ UEFI Buttons, WiFi, , Battery, Charge, Virtualization, GPU, LTE, Audio, Location
 https://github.com/edk2-porting/edk2-msm8998
 
 https://github.com/lumingyu0423/edk2-MSM8998
+
+
+![image](Other/Phone.jpg)
